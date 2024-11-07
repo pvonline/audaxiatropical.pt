@@ -1,0 +1,826 @@
+ /* ===== INICIO TRICICLO ======== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,700;1,400&display=swap');
+*
+
+/*!------  inicio logo rotate derecha izquierda--- ok -->*/
+.container-lg{
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    left: 2%;
+    top: 70px;
+    z-index: 3;
+}
+.logo{
+    width: 120px;
+    height: 110px;
+    background: url(../image/palac11.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    position: absolute;
+    left: 12px;
+    top: 10px;
+    filter: drop-shadow(0px 6px 4px rgb(1, 12, 18));
+    animation: rotar 15s linear infinite;
+}
+.logo:hover{
+    cursor: pointer;
+}
+@keyframes rotar{
+    from{
+    transform: rotateY(180deg);
+    }
+    to{
+    transform: rotateY(-180deg);
+    }
+}
+/*!---  final logo rotate derecha izquierda ---->*/
+
+
+
+/* ====== INICIO TRICICLO 24/09/2024 ======== */
+.slider-wrapper{
+    overflow: hidden;
+    max-width: 1200px;
+    margin: 0 70px 55px;
+}
+
+.card-list .card-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+    user-select: none;
+    margin-top: 70px;
+    margin-right: 20px;
+
+    padding: 35px;
+    border-radius: 8px;
+    background: rgba(255,255,255, 0.2);
+    border:1px solid rgba(255,255,255, 0.5);
+    backdrop-filter: blur(30px);
+}
+/*!--------   01 ok ---->*/
+.card-lists .card-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #ffffff;
+    user-select: none;
+    margin-top: 70px;
+    margin-right: 20px;
+
+    padding: 35px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(30px);
+}
+/*!---------   01 ok ---->*/
+
+
+/*!-----ok 02/11/2024 ---->*/
+.card-lists .card-item .user-image {
+    width: 190px;
+    height: 140px;
+    border-radius: 0%;
+    margin-bottom: 40px;
+    border: 3px solid #ffffff;     ;;;;;; /*! ;; RECTANGULO ;;;;;;;->*/
+    padding: 4px;
+}
+/*!-----ok  02/11/2024---->*/
+
+
+.card-list .card-item .user-profession{
+    font-size: 1.15rem;
+    color: #e3e3e3;
+    font-weight: 500;
+    margin: 14px 0 40px;
+}
+/*!---------   01 ok 24/09/2024 ---->*/
+.card-lists .card-item .user-profession {
+    font-size: 1.15rem;
+    color: #e3e3e3;
+    font-weight: 500;
+    margin: 14px 0 40px;
+}
+/*!---------   01 ok 02/11/2024 ---->*/
+.card-list .card-item .message-button{
+    font-size: 1.25rem;
+    padding: 10px 35px;
+    color: #030728;
+    border-radius: 6px;
+    font-weight: 500;
+    cursor: pointer;
+    background: #fff;
+    border: 1px solid transparent;
+    transition: 0.2s ease;
+}
+.card-lists .card-item .message-button {
+    font-size: 1.25rem;
+    padding: 10px 35px;
+    color: #ffffff;
+    border-radius: 6px;
+    font-weight: 500;
+    cursor: pointer;
+    background: rgb(32, 89, 104);
+    border: 1px solid transparent;
+    transition: 0.2s ease;
+}
+/*!---------   01 ok 02/11/2024 ---->*/
+
+
+/*!--------- inicio buttom hover ------->*/
+.card-list .card-item .message-button:hover{
+    background: rgba(255,255,255,0.1);
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.card-lists .card-item .message-button:hover{
+    background: rgba(255,255,255,0.1);
+    color: #fff;
+    border: 1px solid #fff;
+}
+/*!---------  final buttom hover   ------->*/
+
+.slider-wrapper .swiper-pagination-bullet{
+    background: #fff;
+    height: 15px;
+    width: 15px;
+}
+
+.slider-wrapper .swiper-slider-button{
+    color: #fff;
+    margin-top: -22px;
+    transition: 0.2s ease;
+}
+
+.slider-wrapper .swiper-slider-button:hover{
+    color: #4658ff;
+}
+@media (max-widht:768px){
+    .slider-wrapper{
+        margin: 0 10px 40px;
+    }
+
+    .slider-wrapper .swiper-slider-button{
+        display: none;
+    }
+}
+ /* ====== FINAL TRICICLO 02/11/2024  ======== */
+
+
+
+/*------inicio  new ayudanos-videos youtube  - artistas 24/09/2024 ------*/
+.all-products {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.product {
+	overflow: hidden;
+	background: #ffffff;
+	color: #21201e;
+	text-align: center;
+    background: rgba(255, 255, 255, 0.2);
+    border:1px solid rgba(255, 255, 255, 0.5);
+	width: 280px;
+	height: 410px;
+	padding: 2rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	border-radius: 1.0rem;
+	margin: 1rem;
+}
+.product1 {
+	overflow: hidden;
+	background: #ffffff;
+	color: #21201e;
+	text-align: center;
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    box-shadow: 0px 7px 18px #eeeeee;;
+
+	width: 260px;
+	height: 350px;
+	padding: 1rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	border-radius: 1.0rem;
+	margin: 1rem;
+    }
+.product .product-title, .product .product-price {
+	font-size: 18px;
+}
+.message-button {
+    width: 100%;
+    height: 25px;
+    box-shadow: 5px 15px 25px #dad9d9;
+    transition: all 0.3s;
+}
+.product:hover img {
+	scale:  1.1;
+}
+.product:hover {
+	box-shadow: 5px 15px 25px #eeeeee;
+}
+.product img {
+	height: 200px;
+	margin: 1rem;
+	transition: all 0.3s;
+}
+.product a:link, .product a:visited {
+	color: #ececec;
+	display: inline-block;
+	text-decoration: none;
+	background-color: hsl(189, 48%, 46%);
+	padding: 1.0rem 1rem;
+	border-radius: 1rem;
+	margin-top: 1rem;
+	font-size: 15px;
+	transition: all 0.2s;
+}
+.product a:hover{
+	transform: scale(1.1);
+}
+/*--- final  new ayudanos-videos youtube-artistas ---*/
+
+
+/*!------ inicio: tape zeno 24/09/2024 ----->*/
+.casuales img{
+    position: fixed;
+    display: inline-block;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 46px;
+    width: 190px;
+    left: 1%;
+    top: 6%; 
+    z-index: 1;
+}
+/*!------Final: tape zeno ---- ok -->*/
+
+
+/*!------ inicio somos el PT con negrilla -->*/
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translate(1px, 12px);
+}
+
+.wrapper p{
+    position: absolute;
+    font-size: 77px;
+    color: hsl(90deg, rgb(19, 227, 255), rgb(251, 255, 20), rgb(255, 15, 15));
+    line-height: 70px;
+    text-transform: uppercase;
+    text-shadow: -3px 2px 5px rgba(0,0,0,0.8), 3px -1px 0 rgba(255,255,255,1.9);
+}
+/*!------ final somos el PT con negrilla -->*/
+
+
+
+/*----------- inicio nuevo equipo de w ----------*/ 
+.paramo01{
+    position: relative;;
+    max-width: 1200px;;
+    width: 100%;;
+    display: flex;;
+    justify-content: center;;
+    align-items: center;;
+    flex-wrap: wrap;;    
+    padding: 30px;;
+ }
+  .paramo01 .mycard {
+    position: relative;;
+    max-width: 300px;;
+    height: 150px;;
+    background: rgba(255, 255, 255, 0.2);;
+    border: 1px solid rgba(255, 255, 255, 0.5);;
+    margin: 10px 10px;;
+    padding: 20px 15px;;
+    display: flex;;
+    flex-direction: column;;
+    box-shadow: 0px 0px 8px #eeeeee;;
+    transition: 0.4s ease-in-out;;
+ }
+  .paramo01 .mycard:hover {
+    height: 450px;;
+ }
+  .paramo01 .mycard .cimg {
+    position: relative;;
+    width: 260px;;
+    height: 260px;;
+    top: -60px;;
+    left: 1.5px;;
+    z-index: 1;;
+    box-shadow: 0px 7px 18px #eeeeee;;
+ }
+  .paramo01 .mycard .cimg img {
+    max-width: 100%;;
+    height: 100%;;
+    border-radius: 10px;;
+    border: 2px solid #09e68a80;;
+ }
+  .paramo01 .mycard .cdetail {
+    position: relative;;
+    margin-top: -140px;;
+    padding: 10px 15px;;
+    text-align: center;;
+    color: #fff;;
+    font-family: monospace;;
+    visibility: hidden;;
+    opacity: 0;;
+    transition: 0.4s ease-in-out;;
+ }
+  .paramo01 .mycard:hover .cdetail {
+    visibility: visible;;
+    opacity: 1;;
+    margin-top: -50px;;
+ }
+/*--------- final nuevo equipo de w -----------*/ 
+
+
+
+/*!---- inicio instrumentos 02/11/2024 --->*/
+.slider15{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    background: linear-gradient();
+}
+.wrapper15{
+    width: 200px;
+    height: 200px;
+    perspective: 1000px;
+}
+.img-area{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    transform-style: preserve-3d;
+    transition:all 1s ease-in-out;
+    animation: animateB 10s infinite;
+}
+.img-area img{
+    position: absolute;
+    width: 200px;
+    height: 250px;
+}
+.img-area img:nth-child(1){
+    transform: rotateY(0) translateX(100px);
+}
+.img-area img:nth-child(2){
+    transform: rotateY(90deg) translateX(100px);
+}
+.img-area img:nth-child(3){
+    transform: rotateY(-90deg) translateX(100px);
+}
+.img-area img:nth-child(4){
+    transform: rotateY(180deg) translateX(100px);
+}
+@keyframes animateB {
+    0%{
+        transform: rotateY(0);
+    }
+    0%{
+        transform: rotateY(0);
+    }
+    25%{
+        transform: rotateY(90deg);
+    }
+    50%{
+        transform: rotateY(180deg);
+    }
+    75%{
+        transform: rotateY(270deg);
+    }
+    100%{
+        transform: rotateY(360deg);
+    }
+}
+/*!---  final instrumentos 02/11/2024 --- -->*/
+
+
+
+/*----------- inicio -----------*/
+.contagioso {
+    position: relative;
+    display: center;
+    justify-content: center;
+    align-items: center;
+}
+.contagioso a {
+    width: 35%;
+    height: 150px;
+}
+/*----------- final ------------*/
+
+/*----------- inicio artistas girando PV -----------*/
+.box57 {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    animation: animateP 35s linear infinite;
+}
+
+@keyframes animateP 
+{
+    0% 
+    {
+        rotete: 0deg;
+    }
+    100% 
+    {
+        rotate: 360deg;
+    }
+}
+
+.contagioso:hover .box57
+{
+    animation-play-state: paused;
+}
+
+.contagioso img {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 22%;
+    left: 41.1%;
+    z-index: 100;
+}
+
+.img {
+    position: relative;
+    left: -50%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    z-index: 100;
+}
+
+.img .imgBx {
+    position: fixed;
+    width: 62px;
+    height: 62px;
+    border-radius: 50%;
+    box-shadow: 0 0 0 2px #fff;
+    transform: rotate(calc(360deg/14 * var(--i)));
+    transform-origin: 198px;
+}
+.img .imgBx img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    transform: rotate(calc(-360deg/14 * var(--i)));
+    animation: animateImg8x 35s linear infinite; 
+}
+
+.contagioso:hover .img .imgBx img{
+    animation-play-state: paused;
+}
+
+@keyframes animateImg8x 
+{
+    0% 
+    {
+        rotate: 0deg;
+    }
+    100% 
+    {
+        rotate: -360deg;
+    }
+}
+/*----- final artistas girando PV -------*/
+
+
+
+  /*----- Inicio Reproductor webSim.AI ------*/
+:root {
+    --primary: #2196f3;
+    --dark: #1a1a1a; 
+    --light: #ffffff;
+  }
+  
+  .player {
+    max-width: 1400px;
+    width: 100%;
+    height: 100px;
+    background: url('../images/fundillo5.jpg') center/cover no-repeat;
+    position: relative;
+    top: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    backdrop-filter: blur(10px);
+  }
+  
+  .player::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 0;
+  }
+  
+  .player > * {
+    position: relative;
+    z-index: 1;
+  }
+  
+  .logo {
+    width: 80px;
+    height: 80px;
+    margin-right: 20px;
+  }
+  
+  .info {
+    flex: 1;
+    position: relative;
+  }
+  
+  .station-name {
+    color: var(--light);
+    font-size: 24px;
+    font-weight: 700;
+    margin-left: -70%;
+    margin-bottom: 5px;
+    font-family: 'Lucida Handwriting', cursive; 
+  }
+  
+  .subtitle, .location {
+    color: var(--light);
+    font-size: 14px;
+    opacity: 0.9;
+    margin-bottom: 2px;
+    position: absolute;
+    right: 57px; 
+    display: flex;
+    align-items: center;
+  }
+  
+  .flag-icon {
+    margin-right: 5px;
+    vertical-align: middle;
+    display: inline-block;
+  }
+  
+  .subtitle {
+    top: 0;
+  }
+  
+  .location {
+    top: 20px; 
+    opacity: 0.8;
+  }
+  
+  .metadata {
+    color: var(--light);
+    font-size: 14px;
+    margin-left: -71%;
+    opacity: 0.7;
+  }
+  
+  .controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(calc(-50% + 113px)); 
+  }
+  
+  .play-btn, .social-btn {
+    transition: transform 0.3s ease;
+  }
+  
+  .play-btn:hover, .social-btn:hover {
+    transform: rotate(360deg);
+  }
+  
+  .play-btn {
+    width: 50px;  
+    height: 50px; 
+    border: 2px solid var(--light); 
+    border-radius: 50%;
+    background: var(--primary);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s;
+  }
+  
+  .play-btn svg {
+    width: 24px;
+    height: 24px;
+    fill: var(--light);
+  }
+  
+  .volume-control {
+    width: 120px;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+  }
+  
+  .volume-slider {
+    width: 100%;
+    height: 4px;
+    /*----------*
+    -webkit-appearance: none;
+    /*----------*/
+    background: linear-gradient(90deg, var(--primary) 0%, var(--primary) 70%, #ffffff33 70%);
+    border-radius: 2px;
+  }
+  
+  .volume-slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: var(--primary);
+    cursor: pointer;
+    border: 2px solid var(--light);
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  }
+  
+  .volume-percentage {
+    color: var(--light);
+    font-size: 12px;
+    margin-left: 5px;
+    min-width: 40px;
+    display: inline-block;
+  }
+  
+  .social-buttons {
+    display: flex;
+    gap: 10px;
+    margin-left: 10px;
+  }
+  
+  .social-btn {
+    width: 30px;  
+    height: 30px; 
+    border: 2px solid var(--light); 
+    border-radius: 10px;
+    background: var(--primary);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.3),
+                -5px -5px 10px rgba(255,255,255,0.1);
+  }
+  
+  .social-btn svg {
+    width: 15px;    
+    height: 15px;   
+    fill: var(--light);
+  }
+  
+  .visualizer {
+    position: static; 
+    display: flex;
+    gap: 3px;
+    margin-left: 10px; 
+  }
+  
+  .bar {
+    width: 4px;
+    height: 30px;
+    background: linear-gradient(to top, #ff4b4b, #ff8f50);
+    animation: bounce 0.5s ease infinite alternate;
+  }
+  
+  @keyframes bounce {
+    from { transform: scaleY(0.3); }
+    to { transform: scaleY(1); }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .player {
+      height: auto;
+      min-height: 120px;
+      flex-wrap: wrap;
+      padding: 10px;
+    }
+  
+    .controls {
+      position: relative;
+      left: 0;
+      transform: none;
+      width: 100%;
+      margin-top: 15px;
+      flex-wrap: wrap;
+    }
+  
+    .info {
+      width: calc(100% - 100px); 
+    }
+  
+    .subtitle, .location {
+      position: relative;
+      right: 0;
+      top: 0;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .player {
+      padding: 8px;
+    }
+  
+    .logo {
+      width: 60px;
+      height: 60px;
+      margin-right: 10px;
+    }
+  
+    .station-name {
+      font-size: 20px;
+    }
+  
+    .subtitle, .location, .metadata {
+      font-size: 12px;
+    }
+  
+    .controls {
+      gap: 10px;
+    }
+  
+    .volume-control {
+      width: 80px;
+    }
+  
+    .social-buttons {
+      margin-left: 5px;
+    }
+  
+    .visualizer {
+      margin-left: 5px;
+    }
+  
+    .bar {
+      width: 3px;
+    }
+  
+    .volume-percentage {
+      font-size: 10px;
+      min-width: 30px;
+    }
+  }
+  
+  @media screen and (max-width: 360px) {
+    .controls {
+      gap: 5px;
+    }
+  
+    .volume-control {
+      width: 60px;
+    }
+  
+    .social-buttons {
+      gap: 5px;
+    }
+  }
+  /*----- final Reproductor webSim.AI ------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
